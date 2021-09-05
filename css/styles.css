@@ -1,0 +1,161 @@
+body {
+  font-family: Montserrat;
+  color: #000000;
+}
+
+.big-font {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5rem;
+  line-height: 1.5;
+  color: rgb(24, 6, 66);
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: rgb(24, 6, 66);
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  color:rgb(24, 6, 66);
+}
+
+/* title section */
+
+#title {
+  background-image: linear-gradient(to bottom right, rgb(209, 228, 228) , rgba(40, 33, 104, 0.952));
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin: 0 18px;
+}
+
+.link-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+.col-lg-4 {
+  text-align: center;
+}
+
+.kitty {
+  height: 600px;
+}
+
+/* features section */
+
+#features {
+  padding: 80px 0 80px 0;
+}
+
+.feature {
+  height: 80px;
+  width: 80px;
+  margin: 30px 0 40px 0;
+}
+
+.feature:hover {
+  transform: scale(1.5);
+}
+
+/*testimonials section*/
+
+#testimonials {
+  background-image: linear-gradient(to bottom right, rgb(209, 228, 228) , rgba(40, 33, 104, 0.952));
+  text-align: center;
+}
+
+.testimonial {
+  padding: 5% 15%;
+}
+
+.testimonial-pictures {
+  border:1px hidden;
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+.cred {
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+}
+
+/* explore section */
+
+#explore {
+  padding: 100px;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .kitty {
+    height: auto;
+  }
+
+  .testimonial-pictures {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+
+/* cta section */
+
+#cta {
+  background-image: linear-gradient(to bottom right, rgb(209, 228, 228) , rgba(40, 33, 104, 0.952));
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.bottomButton {
+  margin-top: 20px;
+}
+
+/* footer section */
+
+#footer {
+  padding: 100px;
+  text-align: center;
+  color: rgb(172, 165, 165);
+}
+
+.footer-icon {
+  margin: 15px 10px;
+  color: rgb(19, 16, 16);
+}
+
+
+
+
+
